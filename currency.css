@@ -1,0 +1,112 @@
+body {
+    background-color: grey;
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 2rem;
+    background-image: url(CRYPT.jpeg);
+  }
+  
+  .container {
+   
+    
+    background-color: black;
+    opacity: 0.8;
+    min-width: 30rem;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    border-radius: .8rem;
+  }
+  
+  .container .container-head {
+    text-align: center;
+  }
+  
+  .container .container-head h3 {
+    color: #fff;
+  }
+  
+  .container .convert-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .container .convert-box .box {
+    margin: 1rem;
+  }
+  
+  .container .convert-box .box p {
+    color: honeydew;
+  }
+  
+  .container .convert-box .box input {
+    height: 1.7rem;
+    border-radius: .2rem;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    width: 12rem;
+  }
+  
+  .container .convert-box .box select {
+    width: 10rem;
+    border: none;
+    outline: none;
+    border-radius: .2rem;
+    height: 2rem;
+    font-size: 1.2rem;
+  }
+  
+  .container .all {
+    text-align: center;
+    margin: 1rem;
+  }
+  
+  #convert-button {
+    background-color: #1c87c9;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    border: none;
+    color: #eeeeee;
+    cursor: pointer;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+  }
+  @keyframes glowing {
+    0% {
+      background-color: #2ba805;
+      box-shadow: 0 0 5px #2ba805;
+    }
+    50% {
+      background-color: #b602fde8;
+      box-shadow: 0 0 20px #a019e8;
+    }
+    100% {
+      background-color: #2ba805;
+      box-shadow: 0 0 5px #2ba805;
+    }
+  }
+  #convert-button {
+    animation: glowing 1300ms infinite;
+  }
+  .container .display-result {
+    text-align: center;
+    background-color: yellow;
+    color:black;
+    padding: 1rem;
+  
+  }

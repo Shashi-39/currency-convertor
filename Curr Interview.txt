@@ -1,0 +1,11 @@
+Meta - This particular application has got meta properties which allows the UI interface to be equally and properly visible irrespective of the system used.  By system, I mean it can be
+Android that can be a smartphone or tablets and even in Windows. So, if I am creating an Android web view application from this URL, the user of the web view application will face no
+difficulties in getting a proper view of the application.
+
+Procedure - 
+Back End - So, in this particular application, I fetched all the related data that connects the different currencies with the help of API by using fetch function in the backend, i.e,
+JavaScript(js) file.
+
+Front End - While in the front end, to choose the conversion from 1 particular currency to another currency, we created a drop down menus with the help of options tag after that the conversion 
+procedure is been controlled by the 'convert' function in the backend while we create a button in the front end that can call the convert function when being clicked once, i.e., after the
+on-click event is triggered.
